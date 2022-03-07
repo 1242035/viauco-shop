@@ -20,6 +20,6 @@
 		"ext-pgsql": "*"
     },
 	"require-dev": {
-		"heroku/heroku-buildpack-php": "*"
+		"heroku/heroku-buildpack-php": "212"
 	 }
 }
