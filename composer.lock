@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5bcae5ad9adfdfe430915cf5de03b4e",
+    "content-hash": "3afbbc444ffb616c490e6fb252a52cab",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -239,6 +239,7 @@
                 "log",
                 "plugin"
             ],
+            "abandoned": true,
             "time": "2014-10-13T03:31:43+00:00"
         },
         {
@@ -341,6 +342,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "abandoned": true,
             "time": "2018-07-31T13:22:33+00:00"
         },
         {
@@ -391,6 +393,7 @@
                 "Guzzle",
                 "stream"
             ],
+            "abandoned": true,
             "time": "2014-10-12T19:18:40+00:00"
         },
         {
@@ -439,6 +442,7 @@
             ],
             "description": "Klarna Checkout PHP SDK",
             "homepage": "http://developers.klarna.com",
+            "abandoned": true,
             "time": "2015-12-07T09:51:35+00:00"
         },
         {
@@ -485,6 +489,7 @@
             ],
             "description": "scssphp is a compiler for SCSS written in PHP.",
             "homepage": "http://leafo.net/scssphp/",
+            "abandoned": "scssphp/scssphp",
             "time": "2014-07-07T01:51:39+00:00"
         },
         {
@@ -876,21 +881,19 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v164",
+            "version": "v216",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "65bbee93ecc41f8a7d7f909e120c614763079167"
+                "reference": "78a95ba0abdadf2546178d5a2f9ab8d9dcac092d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/65bbee93ecc41f8a7d7f909e120c614763079167",
-                "reference": "65bbee93ecc41f8a7d7f909e120c614763079167",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/78a95ba0abdadf2546178d5a2f9ab8d9dcac092d",
+                "reference": "78a95ba0abdadf2546178d5a2f9ab8d9dcac092d",
                 "shasum": ""
             },
             "bin": [
-                "bin/heroku-hhvm-apache2",
-                "bin/heroku-hhvm-nginx",
                 "bin/heroku-php-apache2",
                 "bin/heroku-php-nginx"
             ],
@@ -905,18 +908,17 @@
                     "email": "dz@heroku.com"
                 }
             ],
-            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
             "homepage": "https://github.com/heroku/heroku-buildpack-php",
             "keywords": [
                 "apache",
                 "apache2",
                 "foreman",
                 "heroku",
-                "hhvm",
                 "nginx",
                 "php"
             ],
-            "time": "2019-10-24T16:05:31+00:00"
+            "time": "2022-04-14T16:00:42+00:00"
         }
     ],
     "aliases": [],
@@ -929,5 +931,6 @@
         "ext-gd": "*",
         "ext-pgsql": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
