@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5bcae5ad9adfdfe430915cf5de03b4e",
+    "content-hash": "5e06f7a2d92b97da9afa8ee5bf1fa228",
     "packages": [
         {
             "name": "braintree/braintree_php",
-            "version": "3.2.0",
+            "version": "3.40.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/braintree/braintree_php.git",
-                "reference": "c7e0e2d1ae21d659cddb5507fb0bf181813b5733"
+                "reference": "840fc6ebf8d96756fed475cce94565fef178187d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/braintree/braintree_php/zipball/c7e0e2d1ae21d659cddb5507fb0bf181813b5733",
-                "reference": "c7e0e2d1ae21d659cddb5507fb0bf181813b5733",
+                "url": "https://api.github.com/repos/braintree/braintree_php/zipball/840fc6ebf8d96756fed475cce94565fef178187d",
+                "reference": "840fc6ebf8d96756fed475cce94565fef178187d",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,10 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Braintree": "lib"
+                    "Braintree": "lib/"
+                },
+                "psr-4": {
+                    "Braintree\\": "lib/Braintree"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -44,11 +47,11 @@
             "authors": [
                 {
                     "name": "Braintree",
-                    "homepage": "http://www.braintreepayments.com"
+                    "homepage": "https://www.braintreepayments.com"
                 }
             ],
             "description": "Braintree PHP Client Library",
-            "time": "2015-07-15T15:07:13+00:00"
+            "time": "2019-03-28T23:16:53+00:00"
         },
         {
             "name": "cardinity/cardinity-sdk-php",
@@ -239,6 +242,7 @@
                 "log",
                 "plugin"
             ],
+            "abandoned": true,
             "time": "2014-10-13T03:31:43+00:00"
         },
         {
@@ -341,6 +345,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "abandoned": true,
             "time": "2018-07-31T13:22:33+00:00"
         },
         {
@@ -391,6 +396,7 @@
                 "Guzzle",
                 "stream"
             ],
+            "abandoned": true,
             "time": "2014-10-12T19:18:40+00:00"
         },
         {
@@ -439,6 +445,7 @@
             ],
             "description": "Klarna Checkout PHP SDK",
             "homepage": "http://developers.klarna.com",
+            "abandoned": true,
             "time": "2015-12-07T09:51:35+00:00"
         },
         {
@@ -485,6 +492,7 @@
             ],
             "description": "scssphp is a compiler for SCSS written in PHP.",
             "homepage": "http://leafo.net/scssphp/",
+            "abandoned": "scssphp/scssphp",
             "time": "2014-07-07T01:51:39+00:00"
         },
         {
@@ -929,5 +937,6 @@
         "ext-gd": "*",
         "ext-pgsql": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
