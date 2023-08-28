@@ -239,6 +239,7 @@
                 "log",
                 "plugin"
             ],
+            "abandoned": true,
             "time": "2014-10-13T03:31:43+00:00"
         },
         {
@@ -341,6 +342,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "abandoned": true,
             "time": "2018-07-31T13:22:33+00:00"
         },
         {
@@ -391,6 +393,7 @@
                 "Guzzle",
                 "stream"
             ],
+            "abandoned": true,
             "time": "2014-10-12T19:18:40+00:00"
         },
         {
@@ -439,6 +442,7 @@
             ],
             "description": "Klarna Checkout PHP SDK",
             "homepage": "http://developers.klarna.com",
+            "abandoned": true,
             "time": "2015-12-07T09:51:35+00:00"
         },
         {
@@ -485,6 +489,7 @@
             ],
             "description": "scssphp is a compiler for SCSS written in PHP.",
             "homepage": "http://leafo.net/scssphp/",
+            "abandoned": "scssphp/scssphp",
             "time": "2014-07-07T01:51:39+00:00"
         },
         {
@@ -870,6 +875,7 @@
             "keywords": [
                 "wechat-php-sdk"
             ],
+            "abandoned": "zoujingli/wechat-developer",
             "time": "2019-10-10T09:42:15+00:00"
         }
     ],
@@ -929,5 +935,6 @@
         "ext-gd": "*",
         "ext-pgsql": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
